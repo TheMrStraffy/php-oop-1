@@ -1,7 +1,7 @@
 <?php 
 class Movie{
   public $name;
-  public $category;
+  public $category = [];
   public $language;
   public $length;
   public $poster;
@@ -27,8 +27,8 @@ class Movie{
   }
 }
 
-$movie1= new Movie("WhoAmI","Thriller","German",105);
-$movie2= new Movie("Interstellar","Fantascienza","English",169);
+$movie1= new Movie("WhoAmI",["Thriller","Techno"],"German",105);
+$movie2= new Movie("Interstellar",["Fantascienza","Drammatico"],"English",169);
 $movieList = [$movie1, $movie2];
 var_dump($movieList);
 ?>
