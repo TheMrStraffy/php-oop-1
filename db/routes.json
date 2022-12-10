@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Home",
+    "href":"index.php",
+    "public":true
+  },
+  {
+    "name":"Catalogue",
+    "href":"catalogue.php",
+    "public":false
+  },
+  {
+    "name":"Log In",
+    "href":"login.php",
+    "public":true
+  },
+  {
+    "name":"Log Out",
+    "href":"logout.php",
+    "public":false
+  }
+]
